@@ -2,7 +2,7 @@
 This tool translates internal EFX names from Japanese to English so that the function of each EFX entry is easier to understand when editing the file.
 
 ## Usage
-Donwload from Code > Download Zip
+**Download from Code > Download ZIP**
 
 Requires **[Python](https://www.python.org/downloads/)**
 
