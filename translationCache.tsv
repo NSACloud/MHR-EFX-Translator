@@ -1,29 +1,29 @@
 ﻿JapaneseName	EnglishName
 Root	Root
-大ヒット_一閃	Great_Hit_Flash
-大ヒット_血	Great_hit_blood
-大ヒット_閃光	Great_Hit_flash
-大ヒット_モデル血	Big_Hit_model_blood
-大控ヒット_閃光	Motor_Hot_flash
-大控ヒット_一閃	Motoyl_of_MaWhension
-大ヒット_火花	Great_hit_spark
-大控ヒット_火花	Motor_Hit_Spark
+大ヒット_一閃	large_Hit_burst
+大ヒット_血	large_hit_blood
+大ヒット_閃光	large_Hit_flash
+大ヒット_モデル血	large_Hit_model_blood
+大控ヒット_閃光	large_limited_Hit_flash
+大控ヒット_一閃	large_limited_Hit_burst
+大ヒット_火花	large_hit_spark
+大控ヒット_火花	large_limited_Hit_Spark
 ヒット_火の粉2	Hit_Fire_Powder_2
 ヒット_火の粉1	Hit_fire_powder_1
 斬撃_火花大1	Slashing_Spark_large_1
 斬撃_火花大2	Slashing_Spark_large_2
-斬撃_火花小1	Slashing_Slow_1
-斬撃_一閃小	Slashing_first_flash
-斬撃_一閃大	Slashing_Ist
-打撃_ブラー小	Strike_blur
+斬撃_火花小1	Slashing_Spark_small_1
+斬撃_一閃小	Slashing_burst_small
+斬撃_一閃大	Slashing_burst_large
+打撃_ブラー小	Strike_blur_small
 打撃_火花大1	Strike_Spark_large_1
 打撃_火花大2	Stroke_Spark_large_2
-打撃_火花小1	Stroke_Slow_1
+打撃_火花小1	Stroke_Spark_small_1
 打撃_火花小2	Stroke_spark_small_2
 ガンナーヒット_閃光	Gunner_hit_flash
-ガンナーヒット大_一閃_近	Gunner_hit_big_1_flash
-ガンナーヒット大_一閃_遠	Gunner_hit_large_Flash
-ガンナーヒット小_一閃	Gunner_hit_small_one_flash
+ガンナーヒット大_一閃_近	Gunner_hit_large_burst_close
+ガンナーヒット大_一閃_遠	Gunner_hit_large_burst_far
+ガンナーヒット小_一閃	Gunner_hit_small_burst
 ガンナーヒット_火花1	Gunner_hit_spark_1
 ガンナーヒット_大_火花	Gunner_hit_big_spark
 属性_火_水面用	Attribute_fire_for_water_surface
@@ -32,14 +32,14 @@ Root	Root
 属性_火3	Attribute_fire_3
 属性_水1	Attribute_water_1
 属性_水2	Attribute_water_2
-属性_雷1	Attribute_lightning_1
-属性_雷2_重かったら消す	Attribute_Lightning_2_If_it_is_heavy
-属性_雷3	Attribute_lightning_3
+属性_雷1	Attribute_thunder_1
+属性_雷2_重かったら消す	Attribute_thunder_2_If_duplicated_then_eliminate
+属性_雷3	Attribute_thunder_3
 属性_氷1	Attribute_ice_1
 属性_氷2	Attribute_ice_2
 属性_氷3	Attribute_ice_3
 属性_龍1	Attribute_dragon_1
-属性_龍2_重かったら消す	Attribute_Dragon_2_If_it_is_heavy
+属性_龍2_重かったら消す	Attribute_Dragon_2_If_duplicated_then_eliminate
 属性_龍3	Attribute_dragon_3
 属性_毒1	Attribute_Poison_1
 属性_毒2	Attribute_Poison_2
@@ -50,38 +50,38 @@ Root	Root
 属性_睡眠1	Attributes_Sleep_1
 属性_睡眠2	Attribute_Sleep_2
 属性_睡眠3	Attribute_Sleep_3
-属性_減気1	Attribute__気_1
-属性_減気2	Attribute__気_2
-属性_減気3	Attribute_減_気_3
+属性_減気1	Attribute_exhausted_1
+属性_減気2	Attribute_exhausted_2
+属性_減気3	Attribute_exhausted_3
 属性_爆破_1_1	Attribute_blast_1_1
 属性_爆破_1_2	Attribute_blast_1_2
 属性_爆破_2_1	Attribute_blast_2_1
-属性_爆破_2_2	Attribute_Blasting_2_2
-属性_こやし1	Attribute_Koyashi_1
-属性_こやし2	Attributes_Koyashi_2
-属性_こやし3	Attribute_Koyashi_3
+属性_爆破_2_2	Attribute_blast_2_2
+属性_こやし1	Attribute_Dung_1
+属性_こやし2	Attributes_Dung_2
+属性_こやし3	Attribute_Dung_3
 属性_捕獲1	Attribute_Capture_1
 属性_捕獲2	Attributes_Capture_2
-属性_ピヨリ1	Attributes_Pyori_1
-属性_ピヨリ2	Attribute_Pyori_2
-属性_ピヨリ3	Attributes_Pyori_3
-属性_会心1	Attribute_Meetingle_1
-属性_マイナス会心1	Attributes_minus_core_1
-カン1	Kang_1
-カン2	Kang_2
-属性_爆破1	Attribute_Blasting_1
+属性_ピヨリ1	Attributes_stun_1
+属性_ピヨリ2	Attribute_stun_2
+属性_ピヨリ3	Attributes_stun_3
+属性_会心1	Attribute_critical_1
+属性_マイナス会心1	Attributes_negative_critical_1
+カン1	Bounce_1
+カン2	Bounce_2
+属性_爆破1	Attribute_Blast_1
 属性_爆破2	Attribute_Blast_2
-属性_爆破3	Attribute_Blasting_3
+属性_爆破3	Attribute_Blast_3
 39:Explosion_1	39: Explosion_1
 101:Slash_S_Op	101: Slash_S_OP
 2:Strike_L	2: strike_l
 105:Lance_S_Op	105: LANCE_S_OP
 35:Poison	35: Poison
-43:Koyashi	43: Keep
+43:Koyashi	43: Dung
 106:Gunner_L_Op	106: Gunner_L_OP
 30:Fire	30: FIRE
-50:＋Kaishin	50: + Kaishin
-120:kan_Op	120: KAN_OP
+50:＋Kaishin	50:positive_critical
+120:kan_Op	120: bounce_OP
 36:Paralyze	36: Paralyze
 102:Strike_L_Op	102: strike_l_op
 5:Lance_S	5: LANCE_S
@@ -94,9 +94,9 @@ Root	Root
 37:Sleep	37: Sleep
 7:Gunner_S	7: Gunner_S
 0:Slash_L	0: Slash_L
-51:－Kaishin	51: -kaishin
+51:－Kaishin	51:negative_critical
 25:Bomb	25: Bomb
-38:StaminaDrop	38: STAMINADROP
+38:StaminaDrop	38: Stamina_Drop
 104:Lance_L_Op	104: LANCE_L_OP
 40:Explosion_2	40: Explosion_2
 3:Strike_S	3: strike_s
@@ -105,12 +105,12 @@ Root	Root
 44:Masui	44: Often
 34:Dragon	34: DRAGON
 4:Lance_L	4: LANCE_L
-20:kan	20: KAN
-60:Piyo	60: Piyo
-属性_マイナス会心2	Attributes_minus_meetings_2
-属性_マイナス会心3	Attributes_minus_core_3
-属性_会心2	Attribute_Meetingle_2
-属性_会心3	Attribute_Meetingle_3
+20:kan	20: bounce
+60:Piyo	60: stun
+属性_マイナス会心2	Attributes_Negative_critical_2
+属性_マイナス会心3	Attributes_Negative_critical_3
+属性_会心2	Attribute_critical_2
+属性_会心3	Attribute_critical_3
 土3	Soil_3
 Node粒	Node_grain
 Emitter1	Emitter1
@@ -119,89 +119,89 @@ Emitter10	Emitter10
 Emitter11	EMITTER11
 ヒット_モデル血	Hit_model_blood
 ヒット_血	Hit_blood
-控ヒット_閃光	Mini_Hit_flash
-控ヒット_火花1	Minutes_spark_1
-控ヒット_火花2	Minute_Hot_Spark_2
+控ヒット_閃光	limited_Hit_flash
+控ヒット_火花1	limited_Hit_spark_1
+控ヒット_火花2	limited_Hit_Spark_2
 属性_火花1	Attribute_spark_1
-属性_猛毒1	Attribute_Dough_poison_1
-属性_猛毒2	Attributes_Gorgeous_poison_2
-属性_猛毒3	Attributes_Doison_3
+属性_猛毒1	Attribute_Noxious_Poison_1
+属性_猛毒2	Attributes_Noxious_Poison_2
+属性_猛毒3	Attributes_Noxious_Poison_3
 属性_耐性ダウン1	Attribute_Resistance_Down_1
 属性_耐性ダウン2	Attribute_Resistance_Down_2
 属性_耐性ダウン3	Attribute_Resistance_Down_3
 属性_防御ダウン1	Attribute_Defense_Down_1
 属性_防御ダウン2	Attribute_Defense_Down_2
 属性_防御ダウン3	Attribute_Defense_Down_3
-白泡1	Light_bubble_1
+白泡1	White_bubble_1
 白泡2	White_bubble_2
-赤泡1	Bubble_1
-赤泡2	Bubble_2
+赤泡1	Red_Bubble_1
+赤泡2	Red_Bubble_2
 緑泡1	Green_bubble_1
 緑泡2	Green_bubble_2
 属性_爆破_2_3	Attribute_Blasting_2_3
 属性_爆破_2_4	Attribute_Blasting_2_4
 属性_爆破4	Attribute_Blast_4
-鬼火1	Demon_fire_1
-鬼火2	Demon_fire_2
+鬼火1	hell_fire_1
+鬼火2	hell_fire_2
 8:Poison	8: Poison
 11:Sleep	11: Sleep
 20:Explosion_2	20: Explosion_2
 7:Dragon	7: DRAGON
-13:DefenceDrop	13: Defencedrop
+13:DefenceDrop	13: Defence_drop
 15:Bubble	15: Bubble
 3:Fire	3: Fire
 18:Explosion_1	18: Explosion_1
-16:RedBubble	16: Redbubble
+16:RedBubble	16: Red_bubble
 6:Ice	6: ICE
 2:Bomb	2: Bomb
 0:Blood	0: BLOOD
 4:Water	4: Water
 10:Paralyze	10: Paralyze
 5:Thunder	5: Thunder
-19:OniBomb	19: ONIBOMB
+19:OniBomb	19: hell_fire_bomb
 17:GreenBubble	17: Greenbubble
 100:Blood_Op	100: Blood_OP
-14:Koyashi	14: Keep
-9:NoxiousPoison	9: NOxiousPoison
-12:ResistanceDrop	12: Resistantedrop
+14:Koyashi	14: Dung
+9:NoxiousPoison	9: NOxious_Poison
+12:ResistanceDrop	12: Resistante_drop
 1:Spark	1: SPARK
-kan1	kan1
+kan1	bounce1
 小爆発線1	Small_outbreak_line_1
 ブラー	Blur
 のぼり煙　2	Smoke_2
 煙	smoke
 煙0	Smoke_0
-火花　金属用	For_spark_metal
-Node：ヒット火花	NODE:_Hit_sparks
+火花　金属用	spark_For_metal
+Node：ヒット火花	NODE:_Hit_spark
 エミッシブ/リム発光5	Emissive_/_Rim_Light_5
 ブラー0	Blur_0
 小爆発線0	Small_outbreak_line_0
 小爆発粉塵1	Small_explosion_dust_1
 エミッシブ/リム発光3	Emissive_/_Rim_Light_3
-フルバ爆発	Fluba_explosion
-フルバ爆発0	Fluba_explosion_0
+フルバ爆発	Full Burst_explosion
+フルバ爆発0	Full Burst_explosion_0
 マズル炎	Muzzle_flame
 ブラー1	Blur_1
 属性_爆破5	Attribute_Blast
 砕け粒	Crushed_grain
 エネルギーグロー	Energy_glow
 エネルギーグロー0	Energy_Glow_0
-粒1	1
+粒1	Grain_1
 粒2	Grain_2
 きらきら	Sparkle
-廻るやつ	Guy
+廻るやつ	the_rotating_thing
 虹	Rainbow
 全能パワーアップ	Complete power up
 普通パワーアップ	Normal power up
-mizu6	mizu6
+mizu6	Water6
 Emitter	EMITTER
 コアモデル_loop	Core_model_loop
 10_1107	10_1107
 ヒモ風モデル	Typhoon_model
-mizu8	mizu8
+mizu8	water8
 コアモデル_loop0	Core_model_loop0
 10_1108	10_1108
-ヒモ風モデル0	Someway_model_0
+ヒモ風モデル0	Typhoon_model_0
 Emitter4	Emitter_4
 Emitter3	Emitter3
 コアモデル_loop1	Core_model_loop1
@@ -212,8 +212,8 @@ Emitter6	Emitter_6
 Emitter9	Emitter9
 泡_ディストーション版0	Bubble_distortion_version_0
 スパーク	spark
-mizu7	mizu7
-シビレ	Sibile
+mizu7	water7
+シビレ	paralysis
 睡眠	sleep
 色替え用	For color change
 毒	poison
@@ -231,7 +231,7 @@ mizu7	mizu7
 10_1204	10_1204
 粒子	particle
 粒3	Grain_3
-きらきら0	Kirakira_0
+きらきら0	twinkle_0
 bag0	BAG0
 gpu0	gpu0
 wire1	wire1
@@ -242,13 +242,13 @@ bag3	BAG3
 kona	powder
 bag4	BAG4
 アンカー	anchor
-アンカー切れ	Anchor
+アンカー切れ	Anchor_cut
 アンカー4	Anchor_4
 アンカー5	Anchor_5
-結ワイヤー1	Wire_1
-結ワイヤー2	Wire_2
-結ワイヤー3	Wire_3
-結ワイヤー4	Wire_4
+結ワイヤー1	Wire_knot_1
+結ワイヤー2	Wire_knot_2
+結ワイヤー3	Wire_knot_3
+結ワイヤー4	Wire_knot_4
 虫ヌル結	Insect_null
 虫	insect
 bag	bag
@@ -258,7 +258,7 @@ wire8	wire8
 wire9	wire9
 wire7	wire7
 雷光虫_逃げ0	Lightning_soba_escape_0
-kan0	kan0
+kan0	bounce0
 十字１	Cross_1
 十字２	Cross_2
 光	light
@@ -488,7 +488,7 @@ Node炸裂粒	Node_bursting
 ディストーション水0	Distortion_water_0
 白泡_大	Bubble_large
 属性_雷0	Attribute_lightning_0
-mizu9	mizu9
+mizu9	water9
 コアほどけ余韻	Core_lifting
 糸ほどけ余韻	About_the_yarn
 糸集めLOOP	Collection_LOOP
@@ -497,9 +497,9 @@ mizu9	mizu9
 糸垂れ	Bowel
 開始	start
 拘束中	Mutant
-ピヨリ１	Piyori_1
-ピヨリ２	Piyori_2
-ピヨリ３	Piyori_3
+ピヨリ１	stun_1
+ピヨリ２	stun_2
+ピヨリ３	stun_3
 黒煙1	Black_smoke_1
 黒煙2	Black_smoke_2
 火やられ解除	Correct
@@ -515,23 +515,23 @@ attribute_slash3_L	attribute_slash3_l
 余韻つぶ3	Pouring_3
 attribute_strike1_S0	attribute_strike1_s0
 attribute_strike1_S1	Attribute_strike1_s1
-mizu11	MIZU11
+mizu11	water11
 Node粒：早：土/砂	Node_grain:_Fast:_Sat_/_Sand
 Emitter8	Emitter8
 Emitter15	EMITTER15
-mizu16	mizu16
-mizu13	mizu13
-mizu14	mizu14
+mizu16	water16
+mizu13	water13
+mizu14	water14
 Emitter2	Emitter2
-mizu23	MIZU23
-mizu27	mizu27
+mizu23	water23
+mizu27	water27
 ラジアルブラー/SINGLE	Radial_blur_/_Single
 Emitter17	EMITTER17
-mizu21	MIZU21
-mizu22	MIZU22
-mizu24	mizu24
-mizu26	MIZU26
-mizu25	mizu25
+mizu21	water21
+mizu22	water22
+mizu24	water24
+mizu26	water26
+mizu25	water25
 ラジアルブラー/SINGLE0	Radial_blur_/_Single0
 予兆あり	In
 予兆あり(閃光羽虫用)	There is a sign (for flash fads)
@@ -612,7 +612,7 @@ Lv.3&&&05_sand	Lv. 3 &&& 05_sand
 到着	arrival
 出発	Departure
 attribute_strike1_S	Attribute_strike1_s
-kan	kan
+kan	bounce
 軌跡	Trajectory
 ｸﾅｲｷﾗﾝ	Kunaikiran
 インパクト煙	Impact_smoke
@@ -624,10 +624,10 @@ NoMip雷	NOMIP_lightning
 麻痺柿	Paralytic potato
 毒柿	Poisonous
 液/ヒモ	Liquid_/_plain
-柿/大	柿_/_large
-柿/中	柿_/_middle
-柿/大0	/_Large_0
-柿/中0	Mochi_/_middle_0
+柿/大	fruit_/_large
+柿/中	fruit_/_middle
+柿/大0	fruit_/_Large_0
+柿/中0	fruit_/_middle_0
 液/ヒモ0	Liquid_/_Thao_0
 コア部分	Core_part
 マズル火	Muzzle_fire
@@ -703,7 +703,7 @@ green_00	GREEN_00
 green_10	Green_10
 green_30	Green_30
 Detonerate_1	DETONERATE_1
-mizu10	MIZU10
+mizu10	water10
 水上に飛び出す	Fly from water
 水面に飛び込む	Take into the water surface
 水蒸気きらきら11	Water_vapor_depression_11
@@ -733,7 +733,7 @@ mizu10	MIZU10
 水玉	Polka dot
 雷玉	Thunderball
 氷玉	Ice ball
-mizu12	MIZU12
+mizu12	water12
 mod_web	MOD_WEB
 web	web
 web0	web0
@@ -746,7 +746,7 @@ web4	web4
 粒4	4
 下からポコポコ	From_below
 下からポコポコ0	From_below_Pocopoko_0
-mizu17	MIZU17
+mizu17	water17
 攻撃アタリ	Attack Atari
 集まってくる予兆	Signs gather
 10_1111	10_1111
@@ -2728,8 +2728,8 @@ GPU水粒/水	GPU_water_grain_/_water
 消雷_a_1	Timming__A_1
 消雷_b_1	Time-lighting__b_1
 バーニア粉_4	Vernier_powder_4
-フルバ爆発1	Fluba_explosion_1
-フルバ爆発2	Fluba_explosion_2
+フルバ爆発1	Full Burst_explosion_1
+フルバ爆発2	Full Burst_explosion_2
 小爆発粉塵2	Small_explosive_dust_dust_2
 マズル炎0	Muzzle_flame_0
 小フラッシュ	Small_flash
@@ -4404,8 +4404,8 @@ sankaku	triangle
 発生時煙0	When_occurring_0
 口煙	Mental_male
 爆発0	Explosion_0
-雑魚マヒ雷	Miki_Mahata
-ピヨリ雷	Piyoli_lightning
+雑魚マヒ雷	zako_paralysis_thunder
+ピヨリ雷	stun_thunder
 こやし煙	Smoke
 wakka	Wheel
 BigHahen	BIGHAHEN
@@ -8152,7 +8152,7 @@ start	START
 10_1103	10_1103
 01_2004	01_2004
 火花（高速）	Spark_(high_speed)
-mizu15	MIZU15
+mizu15	water15
 tamedenki1	Tamedenki1
 NodeLOOP粒	Nodeloop_grain
 常駐	Resident
@@ -8241,7 +8241,7 @@ Follow	Follow-up
 回転軌跡大3	Rotation_trajectory_3
 奇跡メイン白	Miracle_Main_White
 奇跡メイン白0	Miracle_Main_White_0
-mizu1	MIZU1
+mizu1	water1
 火花_小_1	Spark_small_1
 火花_小_2	Spark_small_2
 火花_小_3	Spark_small_3
@@ -8458,15 +8458,15 @@ web_yoin5	WEB_YOIN5
 リロード	Reload
 クイックリロード	Quick reord
 マズル炎_水面光用	Muzzle_flame_water_surface_light
-フルバ火の粉	Fulver_fire_powder
+フルバ火の粉	Full Burst_fire_powder
 マズル炎_上	Muzzle_flame_
 ためマズル1	Muzzle_1
 ためマズル2	Muzzle_2
 溜め	Reservoir
 フルバースト	Full burst
-フルバ爆発a	Fluba_explosion_a
-フルバ爆発b	Fluba_explosion_B
-フルバ爆発c	Fluba_explosion_C
+フルバ爆発a	Full Burst_explosion_a
+フルバ爆発b	Full Burst_explosion_B
+フルバ爆発c	Full Burst_explosion_C
 ためマズル青1	Muzzle_blue_1
 ためマズル青2	Muzzle_blue_2
 ためマズル紫1	Muzzle_purple_1
