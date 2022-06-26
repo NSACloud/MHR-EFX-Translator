@@ -193,7 +193,7 @@ class EFXAttribute():
         #print(file.tell())
         self.itemType = read_uint(file)
         self.unknSeqNum = read_uint(file)
-        self.itemStruct = getEFXItemStruct(self.itemType)()
+        self.itemStruct = getEFXItemStruct(self.itemType,"MHRiseSB")()
         self.itemStruct.read(file)
 
     def write(self,file):

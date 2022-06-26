@@ -1,6 +1,6 @@
 #Author: NSA Cloud
 
-#VERSION: V1
+#VERSION: V2
 
 #REQUIRES translators package
 #pip install translators

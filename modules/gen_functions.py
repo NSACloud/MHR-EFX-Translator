@@ -68,14 +68,20 @@ def read_string(file_object,readBufferSize = 256):
      #print(string)
      return string
 def read_unicode_string(file_object,readBufferSize = 256):#Reads unicode string from file into utf-8 string
-    startPos = file_object.tell()
-    byteString = file_object.read(readBufferSize).split(b'\x00\x00')[0]
-    file_object.seek(startPos + len(byteString)+3)
-    #print(byteString)
-    unicodeString = byteString.decode("utf-8").replace('\x00', '')#TODO Fix this so that utf16 reads properly
-    #print(file_object.tell())
-    #print(unicodeString)
-    return unicodeString
+	wchar = file_object.read(2)
+	byteString = wchar
+	while wchar != b'\x00\x00':
+		wchar = file_object.read(2)
+		byteString += wchar 
+		#startPos = file_object.tell()
+	#byteString = file_object.read(readBufferSize).split(b'\x00\x00')[0]
+	#file_object.seek(startPos + len(byteString)+3)
+	#print(byteString)
+	#unicodeString = byteString.decode("utf-8").replace('\x00', '')#TODO Fix this so that utf16 reads properly
+	unicodeString = byteString.decode("utf-16le").replace('\x00', '')
+	#print(file_object.tell())
+	#print(unicodeString)
+	return unicodeString
 # write unsigned byte to file
 def write_ubyte(file_object,input, endian = '<'):
      data = struct.pack(endian+'B', input)
